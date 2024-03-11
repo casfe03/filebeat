@@ -22,6 +22,6 @@ filebeat:
 
 output:
   logstash:
-    hosts: "logstash:5044"
+    hosts: "elastic-kingspan-git.felipe-dev.svc.cluster.local:5044"
 
 logging.metrics.enabled: false
