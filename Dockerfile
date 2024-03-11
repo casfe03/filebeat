@@ -1,0 +1,5 @@
+FROM docker.elastic.co/beats/filebeat:8.12.2
+
+USER root
+
+CMD ["filebeat", "-e", "-c", "/etc/filebeat/filebeat.yml"]
